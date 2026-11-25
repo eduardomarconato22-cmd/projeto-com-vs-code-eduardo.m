@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Lenda do Cristal de Eldoria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>⚔️ A Lenda do Cristal de Eldoria</h1>
+            <button id="btn-som" onclick="alternarSom()">🔊 Som: Off</button>
+        </header>
+
+        <section class="status-bar">
+            <div class="stat">❤️ Vida: <span id="stat-vida">100</span></div>
+            <div class="stat">✨ Mana: <span id="stat-mana">50</span></div>
+            <div class="stat">🪙 Ouro: <span id="stat-ouro">20</span></div>
+        </section>
+
+        <main class="story-box">
+            <h2 id="cena-titulo">O Início da Jornada</h2>
+            <p id="cena-texto">Carregando aventura...</p>
+            <div id="opcoes-container" class="opcoes"></div>
+        </main>
+
+        <aside class="inventario-box">
+            <h3>🎒 Mochila (Clique para usar)</h3>
+            <ul id="lista-inventario"></ul>
+        </aside>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
